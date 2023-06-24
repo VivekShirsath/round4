@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Home } from './pages/Home'
 import { Route,Routes } from 'react-router-dom'
-
+import { Details } from './pages/Details'
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
     <Routes>
       <Route>
         <Route path="/" element={<Home/>}/>
+        <Route path="/profile/:id" element={<Details/>}/>
       </Route>
     </Routes>
     </>
