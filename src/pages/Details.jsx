@@ -14,7 +14,7 @@ export const Details = () => {
     const selectedPost = data.posts.filter((val) => val.postId === id);
     console.log(selectedPost)
     return(
-           <div className="flex flex-col text-lg">
+           <div className="flex flex-col text-md">
             <Header/>
             <div className="flex">
           <Sidebar/>
